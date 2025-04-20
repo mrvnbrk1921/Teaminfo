@@ -51,7 +51,12 @@
 
 #trainingszeiten-data .trainingszeiten td:nth-child(6),
 #trainingszeiten-data .trainingszeiten th:nth-child(6) {
-  width: 400px !important;
+  width: 225px !important;
+}
+
+#trainingszeiten-data .trainingszeiten td:nth-child(7),
+#trainingszeiten-data .trainingszeiten th:nth-child(7) {
+  width: 150px !important;
 }
 
 #trainer-data .trainer td:nth-child(1),
