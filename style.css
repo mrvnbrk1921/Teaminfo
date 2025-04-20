@@ -1,0 +1,69 @@
+#trainingszeiten-data table,
+#trainer-data table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: auto;
+}
+
+#trainingszeiten-data td,
+#trainingszeiten-data th,
+#trainer-data td,
+#trainer-data th {
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#trainingszeiten-data th,
+#trainer-data th {
+  background-color: #f2f2f2;
+}
+
+#trainingszeiten-data td,
+#trainer-data td {
+  border: none;
+}
+
+#trainingszeiten-data .trainingszeiten td:nth-child(1),
+#trainingszeiten-data .trainingszeiten th:nth-child(1) {
+  width: 30px !important;
+}
+
+#trainingszeiten-data .trainingszeiten td:nth-child(2),
+#trainingszeiten-data .trainingszeiten th:nth-child(2) {
+  width: 55px !important;
+}
+
+#trainingszeiten-data .trainingszeiten td:nth-child(3),
+#trainingszeiten-data .trainingszeiten th:nth-child(3) {
+  width: 15px !important;
+}
+
+#trainingszeiten-data .trainingszeiten td:nth-child(4),
+#trainingszeiten-data .trainingszeiten th:nth-child(4) {
+  width: 55px !important;
+}
+
+#trainingszeiten-data .trainingszeiten td:nth-child(5),
+#trainingszeiten-data .trainingszeiten th:nth-child(5) {
+  width: 55px !important;
+}
+
+#trainingszeiten-data .trainingszeiten td:nth-child(6),
+#trainingszeiten-data .trainingszeiten th:nth-child(6) {
+  width: 400px !important;
+}
+
+#trainer-data .trainer td:nth-child(1),
+#trainer-data .trainer th:nth-child(1) {
+  width: 80px !important;
+}
+
+#trainer-data .trainer td:nth-child(2),
+#trainer-data .trainer th:nth-child(2) {
+  width: 80px !important;
+}
+
+h2 {
+  color: #818181;
+}
