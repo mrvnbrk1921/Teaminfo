@@ -11,7 +11,7 @@ function fetchTrainingszeiten(targetMannschaft, sheetId, apiKey) {
       );
 
       if (trainingszeiten.length === 0) {
-        container.innerHTML = `<p>Keine Trainingszeiten für die Mannschaft "${targetMannschaft}" gefunden.</p>`;
+        container.innerHTML = `<p>Info folgt.</p>`;
         return;
       }
 
@@ -50,7 +50,7 @@ function fetchTrainer(targetMannschaft, sheetId, apiKey) {
       const trainers = sheetData.filter(row => row[0] && row[0].trim() === targetMannschaft);
 
       if (trainers.length === 0) {
-        container.innerHTML = `<p>Keine Trainer für die Mannschaft "${targetMannschaft}" gefunden.</p>`;
+        container.innerHTML = `<p>Info folgt.</p>`;
         return;
       }
 
