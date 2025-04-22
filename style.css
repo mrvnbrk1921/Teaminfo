@@ -26,7 +26,7 @@
 
 #trainingszeiten-data .trainingszeiten td:nth-child(1),
 #trainingszeiten-data .trainingszeiten th:nth-child(1) {
-  width: 30px !important;
+  width: 35px !important;
 }
 
 #trainingszeiten-data .trainingszeiten td:nth-child(2),
