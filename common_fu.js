@@ -1,5 +1,5 @@
 function fetchTrainingszeiten(targetMannschaft, sheetId, apiKey) {
-  const urlTrainingszeiten = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/Hallenplan?key=${apiKey}`;
+  const urlTrainingszeiten = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/Trainingsplan?key=${apiKey}`;
 
   fetch(urlTrainingszeiten)
     .then(response => response.json())
